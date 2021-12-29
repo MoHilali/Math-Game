@@ -33,7 +33,7 @@ document.getElementById("startreset").onclick = function() {
 
 //clicking on an answer box
 for (var i = 1; i < 5; i++) {
-     document.getElementById("box"+i).onclick = function() {
+     document.getElementById("box" + i).onclick = function() {
           // check if we are playing
           if (playing) { //yes
                if (this.innerHTML == correctAnswer) { //correct answer
